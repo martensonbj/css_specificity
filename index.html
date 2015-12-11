@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <title>CSS and Specificity</title>
+  </head>
+  <body>
+    <nav>
+      <ul>
+        <li><a href="#"><i class="fa fa-home"></i> Home</a></li>
+        <li><a href="#"><i class="fa fa-bicycle"></i> Stuff</a></li>
+        <li><a href="#"><i class="fa fa-hand-peace-o"></i> Things</a></li>
+        <li><a href="#">About</a></li>
+      </ul>
+    </nav>
+    <main>
+    <div id="top_section">
+      <section class="rounded-corners content-area">
+        <h1>This is a Section!</h1>
+        <figure class="rounded-corners">
+          <img class="rounded-corners" src="images/brad-pitt.jpg" height="300px" width="300px" />
+          <figcaption>Brad Pitt</figcaption>
+        </figure>
+        <p>Here is some important text I want you to know about, because I'm the first thing you see.</p>
+        <p>And a picture of Brad Pitt because Taylor Swift gets too much air time around here.</p>
+      </section>
+      <aside class="rounded-corners content-area">
+        <figure>
+          <img class="rounded-corners" src="images/tswift.jpg" width="100px" />
+          <figcaption>Ok Fine. Taylor Swift.</figcaption>
+        </figure>
+        <p>I am an Aside! Semantically you should put me somewhere besides in the middle of the page.</p>
+        <p>Asides make digging through your HTML and CSS easier so you can figure out what element is doing what.</p>
+      </aside>
+    </div>
+    <div id="bottom-section">
+      <section class="rounded-corners content-area">
+        <h1>This is a Section!</h1>
+        <figure>
+          <img class="rounded-corners" src="../images/griffin-knee-tweak.jpg" height="300px" width="300px" />
+          <figcaption>Stephen Curry. Enough Said.</figcaption>
+        </figure>
+        <p>Some other stuff you should know about.</p>
+        <p>Like why Stephen Curry is ridiculous. Click here for the GS Warriors schedule and let me know if you want to watch a game sometime.</p>
+        <a href="#" alt="Golden State Warriors Schedule">Schedule</a>
+      </section>
+    </div>
+    </main>
+    <footer>
+      <hr />
+      Copyright &copy; 2015. All rights reserved.
+    </footer>
+  </body>
+</html>
